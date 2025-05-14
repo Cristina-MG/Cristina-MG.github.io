@@ -24,6 +24,12 @@ title   : Your Site Title
 description: > # this means to ignore newlines until "Language & timezone"
   Your Site Description
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+
+
 
 ## => Language and Timezone
 ##############################
@@ -214,6 +220,15 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: article
+      show_excerpt: true
+      show_info: true
+      readmore: true
+
 
 
 ## => Plugins
