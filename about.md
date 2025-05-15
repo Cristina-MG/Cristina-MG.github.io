@@ -1,74 +1,148 @@
 ---
+
 layout: article
 titles:
-  # @start locale config
-  en      : &EN       About
-  en-GB   : *EN
-  en-US   : *EN
-  en-CA   : *EN
-  en-AU   : *EN
-  zh-Hans : &ZH_HANS  关于
-  zh      : *ZH_HANS
-  zh-CN   : *ZH_HANS
-  zh-SG   : *ZH_HANS
-  zh-Hant : &ZH_HANT  關於
-  zh-TW   : *ZH_HANT
-  zh-HK   : *ZH_HANT
-  ko      : &KO       소개
-  ko-KR   : *KO
-  fr      : &FR       À propos
-  fr-BE   : *FR
-  fr-CA   : *FR
-  fr-CH   : *FR
-  fr-FR   : *FR
-  fr-LU   : *FR
-  # @end locale config
+
+# @start locale config
+
+en      : \&EN       About
+en-GB   : \*EN
+en-US   : \*EN
+en-CA   : \*EN
+en-AU   : \*EN
+zh-Hans : \&ZH\_HANS  关于
+zh      : \*ZH\_HANS
+zh-CN   : \*ZH\_HANS
+zh-SG   : \*ZH\_HANS
+zh-Hant : \&ZH\_HANT  關於
+zh-TW   : \*ZH\_HANT
+zh-HK   : \*ZH\_HANT
+ko      : \&KO       소개
+ko-KR   : \*KO
+fr      : \&FR       À propos
+fr-BE   : \*FR
+fr-CA   : \*FR
+fr-CH   : \*FR
+fr-FR   : \*FR
+fr-LU   : \*FR
+
+# @end locale config
+
 key: page-about
 ---
 
-![TeXt Theme](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/TeXt-home.jpg)
+<style>
+  .about-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: flex-start;
+  }
 
-TeXt is a super customizable Jekyll theme for personal site, team site, blog, project, documentation, etc. Similar to iOS 11 style, it has large and prominent titles, round buttons and cards.
+  .about-text {
+    flex: 1 1 60%;
+    min-width: 300px;
+  }
 
-```javascript
-(() => console.log('Hello, World!'))();
-```
+  .about-photo {
+    flex: 1 1 30%;
+    min-width: 200px;
+  }
 
-## Features
+  .about-photo img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+</style>
 
-- Responsive
-- Semantic HTML
-- Skins
-- Highlight Theme
-- Internationalization
-- Search
-- Table of contents
-- Authors
-- Additional styles (alert, tag, image, icon, button, grid, etc)
-- Extensions (audios, videos, slides, demos)
-- Markdown enhancements ([MathJax](https://www.mathjax.org/), [mermaid](https://mermaidjs.github.io/), [chartjs](http://www.chartjs.org/))
-- Sharing ([AddToAny](https://www.addtoany.com/), [AddThis](https://www.addthis.com/))
-- Comments ([Disqus](https://disqus.com/), [Gitalk](https://gitalk.github.io/), [Valine](https://valine.js.org/en/))
-- Pageview ([LeanCloud](https://leancloud.cn/))
-- Analytics ([Google Analytics](https://analytics.google.com/analytics/web/))
-- RSS ([jekyll-feed](https://github.com/jekyll/jekyll-feed))
+<div class="about-container">
+  <div class="about-text">
+    <p>Hola, soy <strong>Cristina Martínez</strong>, ingeniera química especializada en análisis de datos. Mi trayectoria combina una formación técnica rigurosa con una gran pasión por el poder transformador de los datos en el ámbito empresarial.</p>
 
-## Skins
+    <p>Me dedico a convertir información compleja en conocimiento accionable. A través del análisis exploratorio, la limpieza de datos y la construcción de dashboards claros y eficaces, ayudo a que equipos y organizaciones tomen decisiones mejor fundamentadas.</p>
 
-TeXt has 6 built-in skins, you can also set up your own skin.
+    <p>Trabajo habitualmente con herramientas como Python, SQL, Power BI y Excel, aplicando técnicas de ciencia de datos, automatización y visualización avanzada. Disfruto especialmente resolviendo problemas, optimizando procesos y extrayendo patrones significativos que generen valor real.</p>
 
-| `default` | `dark` | `forest` |
-| --- |  --- | --- |
-| ![Default](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_default.jpg) | ![Dark](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_dark.jpg) | ![Forest](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_forest.jpg) |
+    <p>Mi enfoque combina pensamiento analítico, atención al detalle y una mentalidad orientada a resultados, con una motivación constante por seguir aprendiendo e innovando en el ámbito de los datos.</p>
+  </div>
 
-| `ocean` | `chocolate` | `orange` |
-| --- |  --- | --- |
-| ![Ocean](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_ocean.jpg) | ![Chocolate](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_chocolate.jpg) | ![Orange](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/skins_orange.jpg) |
+  <div class="about-photo">
+    <img src="{{ '/assets/images/cristina.png' | relative_url }}" alt="Cristina Martínez">
+  </div>
+</div>
 
-### Highlight Theme
 
-TeXt use [Tomorrow](https://github.com/chriskempson/tomorrow-theme) as the highlight theme.
+<style>
+  details summary {
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 1.5em;
+    font-size: 1.1em;
+  }
 
-| `tomorrow` | `tomorrow-night` | `tomorrow-night-eighties` | `tomorrow-night-blue` | `tomorrow-night-bright` |
-| --- |  --- | --- | --- |  --- |
-| ![Tomorrow](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow.png) | ![Tomorrow Night](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night.png) | ![Tomorrow Night Eighties](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-eighties.png) | ![Tomorrow Night Blue](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-blue.png) | ![Tomorrow Night Bright](https://raw.githubusercontent.com/kitian616/jekyll-TeXt-theme/master/screenshots/highlight_tomorrow-night-bright.png) |
+  details {
+    margin-bottom: 5em;
+  }
+
+  details ul {
+    margin-top: 0.5em;
+  }
+</style>
+
+<details>
+  <summary>Análisis de Datos y Visualización</summary>
+  <ul>
+    <li>Power BI: modelado de datos, DAX, visualizaciones</li>
+    <li>Excel avanzado: Power Query, tablas dinámicas, macros</li>
+    <li>Power Automate para flujos de trabajo</li>
+    <li>Visualización con Python: Matplotlib, Seaborn, Plotly, Folium, Streamlit</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Programación y Automatización</summary>
+  <ul>
+    <li>Python (pandas, numpy, scikit-learn, openpyxl)</li>
+    <li>SQL (consultas complejas, joins, subconsultas, agregaciones)</li>
+    <li>Bash básico</li>
+    <li>Web scraping: BeautifulSoup, Selenium</li>
+    <li>Consumo de APIs: JSON, XML</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Ciencia de Datos y Machine Learning</summary>
+  <ul>
+    <li>Modelos supervisados: regresión, clasificación, árboles de decisión, Random Forest</li>
+    <li>Modelos no supervisados: K-means, PCA</li>
+    <li>Validación cruzada, GridSearchCV</li>
+    <li>Procesamiento de lenguaje natural (NLP básico)</li>
+    <li>Análisis de series temporales</li>
+    <li>Redes neuronales (introducción a CNN y autoencoders)</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Bases de Datos y Nube</summary>
+  <ul>
+    <li>Gestión y limpieza de datos en SQL Server</li>
+    <li>Introducción a entornos cloud: AWS, Azure, Hadoop y Spark</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Herramientas y Entornos de Desarrollo</summary>
+  <ul>
+    <li>Jupyter Notebooks, PyCharm, Visual Studio Code, Anaconda</li>
+    <li>Control de versiones con Git y GitHub</li>
+  </ul>
+</details>
+
+<details>
+  <summary>Idiomas</summary>
+  <ul>
+    <li>Español: Nativo</li>
+    <li>Inglés: Nivel B2 (EOI – Escuela Oficial de Idiomas)</li>
+  </ul>
+</details>
