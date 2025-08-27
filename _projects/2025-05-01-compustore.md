@@ -22,7 +22,8 @@ La vista principal ofrece un resumen ejecutivo de indicadores:
 - Distribución de ventas por categoría de producto (Dispositivos, Componentes, Almacenamiento, Periféricos).
 - Ranking con el **Top 3 de vendedores** más relevantes del año.
 
-![Panel General]({{ '/assets/images/proyectos/CompuStore/P1.PNG' | relative_url }})
+![Panel General]({{ '/assets/images/proyectos/CompuStore/P1.png' | relative_url }})
+
 
 ---
 
