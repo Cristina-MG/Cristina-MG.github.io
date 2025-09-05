@@ -1,7 +1,10 @@
 ---
 layout: article
 title: "Dashboard de Demografía Mundial 1950–2023"
+badges: ["🔵 Estándar", "🟡 Accesible"]
+
 excerpt: "Dashboard interactivo en Power BI que analiza la evolución de la población mundial, su estructura por edades y la relación de dependencia. Incluye versión accesible con alto contraste, simulación en vídeo de distintos tipos de visión y motivación personal hacia la accesibilidad."
+
 cover: /assets/images/proyectos/Demografia/P1.png
 readmore: true
 ---

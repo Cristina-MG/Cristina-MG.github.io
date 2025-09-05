@@ -2,6 +2,7 @@
 layout: article
 title: "Análisis de Solicitudes de Tarjeta de Crédito"
 excerpt: "Dashboard interactivo en Power BI para analizar solicitudes de tarjetas de crédito, entender factores de aprobación y perfilar solicitantes. Proyecto orientado a departamentos de riesgo y marketing bancario."
+badges: ["🔵 Estándar"]
 cover: /assets/images/proyectos/CreditCard/1.png
 readmore: true
 ---

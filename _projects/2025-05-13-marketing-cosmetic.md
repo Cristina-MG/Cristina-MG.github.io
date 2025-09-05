@@ -2,6 +2,7 @@
 layout: article
 title: "Análisis de Engagement y Satisfacción del Cliente"
 excerpt: "En este proyecto he desarrollado un dashboard interactivo en Power BI para analizar el rendimiento digital de productos cosméticos, con especial atención al engagement en redes sociales, el comportamiento del cliente en el customer journey y la satisfacción del usuario final a través de reviews."
+badges: ["🔵 Estándar"]
 cover: /assets/images/proyectos/Marketing-cosmetic/P1.PNG
 readmore: true
 ---

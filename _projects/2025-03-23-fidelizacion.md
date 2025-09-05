@@ -2,6 +2,7 @@
 layout: article
 title: "Monitorización de la Fidelidad de los Clientes"
 excerpt: "Aplicación desarrollada con R y Shiny para monitorizar la fidelidad de clientes bancarios mediante dashboards, segmentación avanzada y modelos predictivos de churn."
+badges: ["🔵 Estándar"]
 cover: /assets/images/proyectos/Fidelización/CapturaFidelizacionHome.png
 readmore: true
 ---

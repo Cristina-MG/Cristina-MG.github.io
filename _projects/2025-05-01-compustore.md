@@ -2,6 +2,7 @@
 layout: article
 title: "Dashboard de Ventas 2025 – CompuStore"
 excerpt: "Dashboard en Power BI diseñado para la Dirección de CompuStore. Ofrece una visión ejecutiva de las ventas anuales, con KPIs clave, evolución mensual con proyección, análisis por categorías de producto y ranking de vendedores."
+badges: ["🔵 Estándar", "📱 Móvil"]
 cover: /assets/images/proyectos/CompuStore/P1.png
 readmore: true
 ---

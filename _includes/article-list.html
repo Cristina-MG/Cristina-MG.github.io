@@ -69,6 +69,17 @@
             {%- if include.show_readmore -%}
               <p><a href="{{ _article_url }}">{{ _locale_readmore }}</a></p>
             {%- endif -%}
+
+            <!-- badges -->
+            {% if _article.badges %}
+              <p class="badges">
+                {% for b in _article.badges %}
+                  <span class="badge">{{ b }}</span>
+                {% endfor %}
+              </p>
+            {% endif %}
+            <!-- /badges -->
+
           </div>
           {%- if include.show_info -%}
             {%- include snippets/assign.html target=site.data.variables.default.page.pageview
@@ -78,7 +89,6 @@
           {%- endif -%}
         </div>
       </article>
-
 
     {%- elsif include.type == 'brief' -%}
       {%- assign _tags = '' -%}
