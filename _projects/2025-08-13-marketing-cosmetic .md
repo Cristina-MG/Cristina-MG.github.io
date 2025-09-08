@@ -135,19 +135,20 @@ Incluye:
 ## Versión móvil  
 
 El dashboard ha sido adaptado también a la vista de **teléfono móvil**, asegurando que pueda consultarse en cualquier momento y lugar.  
-La experiencia móvil reorganiza la información para favorecer la lectura en pantallas pequeñas:  
+La disposición se ha simplificado respecto a la versión de escritorio para priorizar la **lectura ágil en pantallas pequeñas**.  
 
-- **KPIs principales** en la parte superior.  
-- **Gráficos de evolución** en segundo nivel.  
-- Tablas comparativas y filtros situados al final.  
+- Los **filtros principales** aparecen en la parte superior, justo después del título, para que el usuario pueda personalizar la vista desde el inicio.  
+- Se incluyen los **KPIs y gráficos esenciales**, reorganizados en formato vertical.  
+- No se muestran todas las visualizaciones de la versión de escritorio, sino una selección optimizada que mantiene la coherencia y la utilidad del informe.  
 
-De esta manera, se garantiza una experiencia fluida y profesional tanto en escritorio como en dispositivos móviles.  
+De esta manera, se garantiza una experiencia fluida y práctica, tanto en escritorio como en dispositivos móviles.  
 
 <p align="center">
   <img src="{{ '/assets/images/proyectos/Marketing-cosmetic/App-Essenza.gif' | relative_url }}" 
        alt="Versión Móvil" 
        style="max-width:30%; height:auto;">
 </p>
+
 
 
 
