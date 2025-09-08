@@ -166,7 +166,6 @@ Este enfoque demuestra cómo un dataset sencillo puede transformarse en un **das
 
 ---
 
----
 ## Publicación  
 
 Este dashboard ha sido publicado en la [**Power BI Data Stories Gallery**](https://community.fabric.microsoft.com/t5/Data-Stories-Gallery/Essenza-Dashboard-de-Engagement-y-Satisfacci%C3%B3n-del-Cliente/td-p/4820550), la galería oficial de la comunidad de Microsoft Power BI.  
