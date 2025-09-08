@@ -2,7 +2,7 @@
 layout: article
 title: "Análisis de Engagement y Satisfacción del Cliente – Essenza"
 excerpt: "Dashboard en Power BI inspirado en una prueba técnica. Evoluciona hacia un panel corporativo con branding propio, navegación tipo app y versión móvil optimizada para analizar engagement digital, conversión y satisfacción del cliente en una marca ficticia de cosmética."
-badges: ["🔵 Estándar", "📱 Móvil"]
+badges: ["🔵 Estándar", "📱 Móvil", "⭐ Galería Power BI"]
 cover: /assets/images/proyectos/Marketing-cosmetic/P1.PNG
 readmore: true
 ---
@@ -163,6 +163,15 @@ Los datos han sido **simulados con fines educativos**, pero el diseño del model
 - **Diseño adaptado a escritorio y móvil**, con navegación tipo aplicación.  
 
 Este enfoque demuestra cómo un dataset sencillo puede transformarse en un **dashboard corporativo atractivo y funcional**, aplicando principios de branding, experiencia de usuario y analítica de negocio.
+
+---
+
+---
+## Publicación  
+
+Este dashboard ha sido publicado en la [**Power BI Data Stories Gallery**](https://community.fabric.microsoft.com/t5/Data-Stories-Gallery/Essenza-Dashboard-de-Engagement-y-Satisfacci%C3%B3n-del-Cliente/td-p/4820550), la galería oficial de la comunidad de Microsoft Power BI.  
+
+
 
 
 
