@@ -68,7 +68,7 @@ Incluye:
 - **Diseño visual coherente** con el branding ficticio de Essenza.  
 - Una experiencia de navegación clara y profesional.  
 
-![Home]({{ '/assets/images/proyectos/Marketing-cosmetic/Home.png' | relative_url }})
+![Home]({{ '/assets/images/proyectos/Marketing-cosmetic/home.png' | relative_url }})
 
 ---
 
