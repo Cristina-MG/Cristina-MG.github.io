@@ -100,7 +100,7 @@ En esta sección se analiza con más detalle la efectividad del **funnel de conv
 
 Esta página está orientada a detectar cuellos de botella en el customer journey y apoyar a los equipos de marketing y ventas en la optimización del funnel.  
 
-![Conversión]({{ '/assets/images/proyectos/Marketing-cosmetic/P3.PNG' | relative_url }})
+![Conversión]({{ '/assets/images/proyectos/Marketing-cosmetic/P2.PNG' | relative_url }})
 
 ---
 
@@ -114,7 +114,7 @@ Incluye:
 - Distribución de visualizaciones por **canal de origen** (blog, redes sociales, newsletter, vídeo).  
 - **Tabla dinámica mensual** con el rendimiento de cada producto en términos de views.  
 
-![Redes Sociales]({{ '/assets/images/proyectos/Marketing-cosmetic/P2.PNG' | relative_url }})
+![Redes Sociales]({{ '/assets/images/proyectos/Marketing-cosmetic/P3.PNG' | relative_url }})
 
 ---
 
