@@ -170,6 +170,15 @@ Este enfoque demuestra cómo un dataset sencillo puede transformarse en un **das
 
 Este dashboard ha sido publicado en la [**Power BI Data Stories Gallery**](https://community.fabric.microsoft.com/t5/Data-Stories-Gallery/Essenza-Dashboard-de-Engagement-y-Satisfacci%C3%B3n-del-Cliente/td-p/4820550), la galería oficial de la comunidad de Microsoft Power BI.  
 
+---
+
+## Dataset disponible en GitHub  
+
+El dataset utilizado en este proyecto ha sido **diseñado y simulado por mí** con fines educativos.  
+Dado el interés que ha generado, he decidido compartir en GitHub una **muestra parcial** del dataset para que pueda descargarse y utilizarse como demo.  
+
+👉 [Acceder al dataset en GitHub](https://github.com/Cristina-MG/Cosmetic-Marketing-Dataset)  
+
 
 
 
