@@ -77,7 +77,7 @@ key: page-about
 <div style="display:flex; align-items:center; gap:15px; margin-bottom:20px;">
   
   <a href="https://learn.microsoft.com/api/credentials/share/es-es/CristinaMartnezGarca-0443/725310503143AC5B?sharingId=31FC82A51CA849AE" target="_blank">
-    <img src="{{ '/assets/images/pl300-badge.png' | relative_url }}" 
+    <img src="{{ '/assets/images/Pl300-badge.png' | relative_url }}" 
          alt="PL-300 Badge" 
          style="width:90px; height:auto;">
   </a>
