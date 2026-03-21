@@ -72,6 +72,22 @@ key: page-about
   </div>
 </div>
 
+<h3>Certificaciones</h3>
+
+<div style="display:flex; align-items:center; gap:15px; margin-bottom:20px;">
+  
+  <a href="https://learn.microsoft.com/api/credentials/share/es-es/CristinaMartnezGarca-0443/725310503143AC5B?sharingId=31FC82A51CA849AE" target="_blank">
+    <img src="{{ '/assets/images/pl300-badge.png' | relative_url }}" 
+         alt="PL-300 Badge" 
+         style="width:90px; height:auto;">
+  </a>
+
+  <div>
+    <strong>Microsoft Certified: Power BI Data Analyst (PL-300)</strong><br>
+    2026 – Certificación oficial de Microsoft en modelado de datos, DAX, visualización y Power BI Service.
+  </div>
+
+</div>
 
 <style>
   details summary {
