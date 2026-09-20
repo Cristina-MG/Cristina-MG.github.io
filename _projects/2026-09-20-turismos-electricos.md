@@ -2,7 +2,7 @@
 layout: article
 title: "Mercado Español de Turismos – Análisis y Electrificación"
 excerpt: "Análisis en Power BI del mercado español de turismos a partir de más de 6 millones de registros de matriculaciones de la DGT. El proyecto analiza la evolución del mercado, la posición de fabricantes y modelos y el avance de la electrificación entre 2024 y agosto de 2026."
-badges: ["📊 Power BI", "🚗 Automoción", "⚡ Electrificación"]
+badges: ["📊 Power BI", "🚗 Automoción", "⚡ Electrificación", "⭐ Galería Power BI"]
 cover: /assets/images/proyectos/mercado-automovilistico-turismos-electricos/home.png
 readmore: true
 ---
@@ -48,7 +48,13 @@ El usuario puede seleccionar diferentes periodos, navegar entre las distintas á
 </button>
 
 <div id="pbiframe-turismos" style="display:none; margin-top:20px; position:relative; padding-bottom:62%; height:0; overflow:hidden;">
-<iframe title="Turismos electrificados mercado español" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMDU1ZDFjOGYtOTlkMS00YTg1LWE1NmMtY2YwNTgzZWE2NjQ2IiwidCI6IjY4NTE5ZTQ4LTgzZjMtNDM1Zi1hMzhhLTFhN2FhNzdiYTk4NyIsImMiOjh9&pageName=f5e73aa00910033b019c" frameborder="0" allowFullScreen="true"></iframe>
+  <iframe
+    title="Turismos electrificados mercado español"
+    src="https://app.powerbi.com/view?r=eyJrIjoiMDU1ZDFjOGYtOTlkMS00YTg1LWE1NmMtY2YwNTgzZWE2NjQ2IiwidCI6IjY4NTE5ZTQ4LTgzZjMtNDM1Zi1hMzhhLTFhN2FhNzdiYTk4NyIsImMiOjh9&pageName=f5e73aa00910033b019c"
+    frameborder="0"
+    allowFullScreen="true"
+    style="position:absolute; top:0; left:0; width:100%; height:100%;">
+  </iframe>
 </div>
 
 ---
@@ -300,6 +306,14 @@ El resultado combina **preparación de datos, modelado, análisis, visualizació
 - **DAX** → creación de KPIs, cálculos temporales, cuotas y variaciones interanuales.
 - **Python** → apoyo en elementos específicos del proyecto y visualización.
 - **Figma** → diseño de elementos gráficos y definición de la interfaz visual del informe.
+
+---
+
+## Publicación
+
+Este dashboard ha sido publicado en la [**Power BI Data Stories Gallery**](https://community.fabric.microsoft.com/discussions/datastoriesgallery/mercado-espa%C3%B1ol-de-turismos-evoluci%C3%B3n-y-electrificaci%C3%B3n/5367981), la galería oficial de la comunidad de Microsoft Power BI.
+
+También puedes [**abrir el dashboard directamente en Power BI**](https://app.powerbi.com/view?r=eyJrIjoiMDU1ZDFjOGYtOTlkMS00YTg1LWE1NmMtY2YwNTgzZWE2NjQ2IiwidCI6IjY4NTE5ZTQ4LTgzZjMtNDM1Zi1hMzhhLTFhN2FhNzdiYTk4NyIsImMiOjh9&pageName=f5e73aa00910033b019c).
 
 ---
 
