@@ -50,7 +50,7 @@ El usuario puede seleccionar diferentes periodos, navegar entre las distintas á
 <div id="pbiframe-turismos" style="display:none; margin-top:20px; position:relative; padding-bottom:62%; height:0; overflow:hidden;">
   <iframe
     title="Turismos electrificados mercado español"
-    src="https://app.powerbi.com/view?r=eyJrIjoiMDU1ZDFjOGYtOTlkMS00YTg1LWE1NmMtY2YwNTgzZWE2NjQ2IiwidCI6IjY4NTE5ZTQ4LTgzZjMtNDM1Zi1hMzhhLTFhN2FhNzdiYTk4NyIsImMiOjh9"
+    src="<iframe title="Turismos electrificados mercado español" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiMDU1ZDFjOGYtOTlkMS00YTg1LWE1NmMtY2YwNTgzZWE2NjQ2IiwidCI6IjY4NTE5ZTQ4LTgzZjMtNDM1Zi1hMzhhLTFhN2FhNzdiYTk4NyIsImMiOjh9&pageName=f5e73aa00910033b019c" frameborder="0" allowFullScreen="true"></iframe>"
     frameborder="0"
     allowFullScreen="true"
     style="position:absolute; top:0; left:0; width:100%; height:100%;">
